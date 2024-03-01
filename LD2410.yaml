@@ -33,13 +33,14 @@ time:
 wifi:
   ssid: "SSID"
   password: "PASSWORD"
+  power_save_mode: LIGHT
+  fast_connect: true
+  reboot_timeout: 10min
+  output_power: 18dB
 #  manual_ip:
 #    static_ip: 192.168.1.160
 #    gateway: 192.168.1.1
 #    subnet: 255.255.255.0
-  power_save_mode: none
-  fast_connect: true
-  reboot_timeout: 10min
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
     ssid: "LD2410"
