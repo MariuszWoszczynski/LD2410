@@ -24,7 +24,8 @@ api:
     key: "gkROOOAh0xAjCVobOvDVZfPfezQvMEaK9FT1UJEshVU="
 
 ota:
-  password: "3e17e1c064adcb643234d5a49982329c"
+  - platform: esphome
+    password: "3e17e1c064adcb643234d5a49982329c"
 
 time:
   - platform: sntp
