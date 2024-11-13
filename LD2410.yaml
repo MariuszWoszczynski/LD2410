@@ -56,7 +56,7 @@ captive_portal:
 #  password: password
   
 web_server: 
-  version: 2
+  version: 3
   port: 80
 
 
