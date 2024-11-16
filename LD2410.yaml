@@ -34,9 +34,6 @@ time:
 wifi:
   ssid: "SSID"
   password: "PASSWORD"
-  power_save_mode: LIGHT
-  fast_connect: true
-  reboot_timeout: 10min
   output_power: 18dB
 #  manual_ip:
 #    static_ip: 192.168.1.160
